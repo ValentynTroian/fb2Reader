@@ -22,25 +22,24 @@ def incorrect_file_removal():
         shutil.move(f, 'incorrect_input')
 
 
+def count_paragraph(elem_tree):
+    i = 0
+    for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}section'):
+        for _ in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
+            i = i+1
+    print(i)
+    return i
+
+
 change_dir()
 fb2_file_search()
 for fb2_file in fb2_file_search():
     tree = ET.parse(fb2_file)
     root = tree.getroot()
-#    for child in root:
-#        print (child.tag, child.attrib)
-    for child in root:
-        #print(child.tag, child.attrib)
-        """
-        for child2 in child:
-            print(child2.tag, child2.attrib)
-            for child3 in child2:
-                print(child3.text, child3.text)
-                """
-    #print(root.tag)
-    for neighbor in root.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}book-title'):
-        print(neighbor.text)
-        #print(1)
+    count_paragraph(tree)
+
+
+
 
 """
 try:
