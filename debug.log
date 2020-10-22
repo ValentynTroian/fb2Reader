@@ -1,0 +1,281 @@
+2020-10-22T12:36:48.561731+0300 INFO Application started
+2020-10-22T14:34:56.694022+0300 INFO Application started
+2020-10-22T14:38:01.791262+0300 INFO Application started
+2020-10-22T14:38:23.571722+0300 INFO Application started
+2020-10-22T14:38:42.110769+0300 INFO Application started
+2020-10-22T14:41:29.715920+0300 INFO Application started
+2020-10-22T14:54:38.102681+0300 INFO Application started
+2020-10-22T14:56:40.337244+0300 INFO Application started
+2020-10-22T14:56:40.470243+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (24904), thread 'MainThread' (21364):
+Traceback (most recent call last):
+
+> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 187, in <module>
+    file_service.word_frequency(tree)
+    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000227FC49C4F0>
+    |            -> <function FileService.word_frequency at 0x00000227FC458700>
+    -> <__main__.FileService object at 0x00000227FC365AC0>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 146, in word_frequency
+    c2[word_cap.capitalyze()] += 1
+    |  -> 'Док'
+    -> Counter()
+
+AttributeError: 'str' object has no attribute 'capitalyze'
+2020-10-22T14:56:40.628241+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (24904), thread 'MainThread' (21364):
+Traceback (most recent call last):
+
+> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 187, in <module>
+    file_service.word_frequency(tree)
+    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000227FC37F160>
+    |            -> <function FileService.word_frequency at 0x00000227FC458700>
+    -> <__main__.FileService object at 0x00000227FC36F0D0>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 146, in word_frequency
+    c2[word_cap.capitalyze()] += 1
+    |  -> 'Док'
+    -> Counter()
+
+AttributeError: 'str' object has no attribute 'capitalyze'
+2020-10-22T14:56:40.652241+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (24904), thread 'MainThread' (21364):
+Traceback (most recent call last):
+
+> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 187, in <module>
+    file_service.word_frequency(tree)
+    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000227FC36F040>
+    |            -> <function FileService.word_frequency at 0x00000227FC458700>
+    -> <__main__.FileService object at 0x00000227FC36FF40>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 146, in word_frequency
+    c2[word_cap.capitalyze()] += 1
+    |  -> 'Сонет'
+    -> Counter()
+
+AttributeError: 'str' object has no attribute 'capitalyze'
+2020-10-22T14:57:43.959459+0300 INFO Application started
+2020-10-22T14:58:05.111923+0300 INFO Application started
+2020-10-22T14:58:37.673798+0300 INFO Application started
+2020-10-22T14:59:09.427033+0300 INFO Application started
+2020-10-22T15:03:02.245143+0300 INFO Application started
+2020-10-22T15:03:14.323510+0300 INFO Application started
+2020-10-22T15:03:37.979901+0300 INFO Application started
+2020-10-22T15:03:51.514806+0300 INFO Application started
+2020-10-22T15:04:08.501342+0300 INFO Application started
+2020-10-22T15:04:18.297273+0300 INFO Application started
+2020-10-22T15:05:16.761089+0300 INFO Application started
+2020-10-22T15:05:31.549454+0300 INFO Application started
+2020-10-22T15:06:23.692011+0300 INFO Application started
+2020-10-22T15:06:29.666651+0300 INFO Application started
+2020-10-22T15:06:51.994216+0300 INFO Application started
+2020-10-22T15:07:47.436153+0300 INFO Application started
+2020-10-22T15:07:59.571904+0300 INFO Application started
+2020-10-22T15:10:26.819556+0300 INFO Application started
+2020-10-22T15:18:38.263025+0300 INFO Application started
+2020-10-22T15:24:00.947583+0300 INFO Application started
+2020-10-22T15:24:27.593106+0300 INFO Application started
+2020-10-22T15:24:40.231560+0300 INFO Application started
+2020-10-22T15:28:48.835842+0300 INFO Application started
+2020-10-22T15:29:00.770745+0300 INFO Application started
+2020-10-22T15:29:32.170386+0300 INFO Application started
+2020-10-22T15:29:32.395379+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (8944), thread 'MainThread' (21000):
+Traceback (most recent call last):
+
+> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
+    file_service.word_frequency(tree)
+    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x000001833756B550>
+    |            -> <function FileService.word_frequency at 0x0000018337528790>
+    -> <__main__.FileService object at 0x0000018337435B20>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 142, in word_frequency
+    word_list_full += re.sub('/w', '', paragraph.text.split())
+    |                 |  |             |         -> <attribute 'text' of 'xml.etree.ElementTree.Element' objects>
+    |                 |  |             -> <Element '{http://www.gribuser.ru/xml/fictionbook/2.0}p' at 0x0000018337579180>
+    |                 |  -> <function sub at 0x0000018336CF4280>
+    |                 -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
+    -> []
+
+  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           |        |        |          |     |       -> 0
+           |        |        |          |     -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
+           |        |        |          -> ''
+           |        |        -> 0
+           |        -> '/w'
+           -> <function _compile at 0x0000018336CF4790>
+
+TypeError: expected string or bytes-like object
+2020-10-22T15:29:32.599173+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (8944), thread 'MainThread' (21000):
+Traceback (most recent call last):
+
+> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
+    file_service.word_frequency(tree)
+    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x000001833744F130>
+    |            -> <function FileService.word_frequency at 0x0000018337528790>
+    -> <__main__.FileService object at 0x000001833743E0D0>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 142, in word_frequency
+    word_list_full += re.sub('/w', '', paragraph.text.split())
+    |                 |  |             |         -> <attribute 'text' of 'xml.etree.ElementTree.Element' objects>
+    |                 |  |             -> <Element '{http://www.gribuser.ru/xml/fictionbook/2.0}p' at 0x0000018337A61950>
+    |                 |  -> <function sub at 0x0000018336CF4280>
+    |                 -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
+    -> []
+
+  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           |        |        |          |     |       -> 0
+           |        |        |          |     -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
+           |        |        |          -> ''
+           |        |        -> 0
+           |        -> '/w'
+           -> <function _compile at 0x0000018336CF4790>
+
+TypeError: expected string or bytes-like object
+2020-10-22T15:29:32.635469+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (8944), thread 'MainThread' (21000):
+Traceback (most recent call last):
+
+> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
+    file_service.word_frequency(tree)
+    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x000001833743E130>
+    |            -> <function FileService.word_frequency at 0x0000018337528790>
+    -> <__main__.FileService object at 0x000001833743E0A0>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 142, in word_frequency
+    word_list_full += re.sub('/w', '', paragraph.text.split())
+    |                 |  |             |         -> <attribute 'text' of 'xml.etree.ElementTree.Element' objects>
+    |                 |  |             -> <Element '{http://www.gribuser.ru/xml/fictionbook/2.0}p' at 0x000001833744A900>
+    |                 |  -> <function sub at 0x0000018336CF4280>
+    |                 -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
+    -> []
+
+  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           |        |        |          |     |       -> 0
+           |        |        |          |     -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда']
+           |        |        |          -> ''
+           |        |        -> 0
+           |        -> '/w'
+           -> <function _compile at 0x0000018336CF4790>
+
+TypeError: expected string or bytes-like object
+2020-10-22T15:30:06.637715+0300 INFO Application started
+2020-10-22T15:30:06.672716+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (1116), thread 'MainThread' (23836):
+Traceback (most recent call last):
+
+> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
+    file_service.word_frequency(tree)
+    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000160639FB550>
+    |            -> <function FileService.word_frequency at 0x00000160639B8790>
+    -> <__main__.FileService object at 0x00000160639FB910>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 143, in word_frequency
+    word_list_lowercase = re.sub('/w', '', word_list_full.copy())
+                          |  |             |              -> <method 'copy' of 'list' objects>
+                          |  |             -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
+                          |  -> <function sub at 0x00000160632A4280>
+                          -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
+
+  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           |        |        |          |     |       -> 0
+           |        |        |          |     -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
+           |        |        |          -> ''
+           |        |        -> 0
+           |        -> '/w'
+           -> <function _compile at 0x00000160632A4790>
+
+TypeError: expected string or bytes-like object
+2020-10-22T15:30:06.965785+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (1116), thread 'MainThread' (23836):
+Traceback (most recent call last):
+
+> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
+    file_service.word_frequency(tree)
+    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000160638C5EB0>
+    |            -> <function FileService.word_frequency at 0x00000160639B8790>
+    -> <__main__.FileService object at 0x00000160638C5400>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 143, in word_frequency
+    word_list_lowercase = re.sub('/w', '', word_list_full.copy())
+                          |  |             |              -> <method 'copy' of 'list' objects>
+                          |  |             -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
+                          |  -> <function sub at 0x00000160632A4280>
+                          -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
+
+  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           |        |        |          |     |       -> 0
+           |        |        |          |     -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
+           |        |        |          -> ''
+           |        |        -> 0
+           |        -> '/w'
+           -> <function _compile at 0x00000160632A4790>
+
+TypeError: expected string or bytes-like object
+2020-10-22T15:30:07.152310+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (1116), thread 'MainThread' (23836):
+Traceback (most recent call last):
+
+> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
+    file_service.word_frequency(tree)
+    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000160638C5820>
+    |            -> <function FileService.word_frequency at 0x00000160639B8790>
+    -> <__main__.FileService object at 0x00000160638DF160>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 143, in word_frequency
+    word_list_lowercase = re.sub('/w', '', word_list_full.copy())
+                          |  |             |              -> <method 'copy' of 'list' objects>
+                          |  |             -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
+                          |  -> <function sub at 0x00000160632A4280>
+                          -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
+
+  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           |        |        |          |     |       -> 0
+           |        |        |          |     -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
+           |        |        |          -> ''
+           |        |        -> 0
+           |        -> '/w'
+           -> <function _compile at 0x00000160632A4790>
+
+TypeError: expected string or bytes-like object
+2020-10-22T15:34:50.792159+0300 INFO Application started
+2020-10-22T15:35:11.684104+0300 INFO Application started
+2020-10-22T15:36:09.704574+0300 INFO Application started
+2020-10-22T15:36:41.288224+0300 INFO Application started
+2020-10-22T15:37:29.173288+0300 INFO Application started
+2020-10-22T15:45:34.365210+0300 INFO Application started
+2020-10-22T15:45:39.367058+0300 INFO Application started
+2020-10-22T15:45:53.144695+0300 INFO Application started
+2020-10-22T15:46:07.307161+0300 INFO Application started
+2020-10-22T15:46:50.672642+0300 INFO Application started
+2020-10-22T15:46:50.691562+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (13708), thread 'MainThread' (10268):
+Traceback (most recent call last):
+
+> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 197, in <module>
+    file_service.word_frequency(tree)
+    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x000001943527B4C0>
+    |            -> <function FileService.word_frequency at 0x0000019435239790>
+    -> <__main__.FileService object at 0x000001943527B970>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 146, in word_frequency
+    lines = [re.sub(r'[^\w\s]', '', word_list_full[l]) for l in word_list_full]
+             |  |                   |                           -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
+             |  |                   -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
+             |  -> <function sub at 0x0000019434AF3280>
+             -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
+
+  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 146, in <listcomp>
+    lines = [re.sub(r'[^\w\s]', '', word_list_full[l]) for l in word_list_full]
+             |  |                   |              |       |    -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
+             |  |                   |              |       -> 'Сонет'
+             |  |                   |              -> 'Сонет'
+             |  |                   -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
+             |  -> <function sub at 0x0000019434AF3280>
+             -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
+
+TypeError: list indices must be integers or slices, not str
+2020-10-22T15:47:03.649899+0300 INFO Application started
+2020-10-22T15:48:22.150682+0300 INFO Application started
+2020-10-22T15:48:43.361594+0300 INFO Application started
+2020-10-22T15:50:10.721365+0300 INFO Application started
+2020-10-22T15:51:05.988914+0300 INFO Application started
+2020-10-22T15:51:42.676985+0300 INFO Application started
+2020-10-22T15:52:28.368166+0300 INFO Application started

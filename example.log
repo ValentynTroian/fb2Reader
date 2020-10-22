@@ -1,0 +1,295 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:2020-10-21 16:20:46.918227Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:21:25 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:31:41 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:32:13 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:32:55 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:33:05 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:33:13 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:33:33 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:49:26 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:51:45 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:52:49 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:55:51 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 16:55:59 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 17:49:53 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 17:50:45 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 17:56:22 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 17:56:31 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 17:57:50 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 17:59:03 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 18:00:39 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 18:02:23 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 18:02:53 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:Error is it
+INFO:root:21/10/2020 18:03:36 Script execution is started
+INFO:root:Fb2Reader object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
+INFO:root:FileService object is created
+INFO:root:FileInfo object is created
