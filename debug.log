@@ -279,3 +279,275 @@ TypeError: list indices must be integers or slices, not str
 2020-10-22T15:51:05.988914+0300 INFO Application started
 2020-10-22T15:51:42.676985+0300 INFO Application started
 2020-10-22T15:52:28.368166+0300 INFO Application started
+2020-10-22T16:07:45.338886+0300 INFO Application started
+2020-10-22T16:30:12.473610+0300 INFO Application started
+2020-10-22T16:34:32.437171+0300 INFO Application started
+2020-10-22T16:34:32.439171+0300 INFO Fb2Reader object is created
+2020-10-22T16:34:32.476801+0300 INFO FileService object is created
+2020-10-22T16:34:32.651177+0300 INFO FileInfo object is created
+2020-10-22T16:34:33.059289+0300 INFO FileService object is created
+2020-10-22T16:34:33.078070+0300 INFO FileInfo object is created
+2020-10-22T16:34:33.230253+0300 INFO FileService object is created
+2020-10-22T16:34:33.520064+0300 INFO FileInfo object is created
+2020-10-22T16:35:20.758780+0300 INFO Application started
+2020-10-22T16:35:20.760253+0300 INFO Fb2Reader object is created
+2020-10-22T16:35:20.787840+0300 INFO FileService object is created
+2020-10-22T16:35:20.889644+0300 INFO FileInfo object is created
+2020-10-22T16:35:21.238539+0300 INFO FileService object is created
+2020-10-22T16:35:21.253637+0300 INFO FileInfo object is created
+2020-10-22T16:35:21.313874+0300 INFO FileService object is created
+2020-10-22T16:35:21.416523+0300 INFO FileInfo object is created
+2020-10-22T16:37:11.894269+0300 INFO Application started
+2020-10-22T16:37:11.895393+0300 INFO Fb2Reader object is created
+2020-10-22T16:37:11.903016+0300 INFO FileService object is created
+2020-10-22T16:37:11.912052+0300 INFO FileInfo object is created
+2020-10-22T16:37:11.958537+0300 INFO FileService object is created
+2020-10-22T16:37:12.055620+0300 INFO FileInfo object is created
+2020-10-22T16:37:12.351838+0300 INFO FileService object is created
+2020-10-22T16:37:12.446124+0300 INFO FileInfo object is created
+2020-10-22T16:37:30.176812+0300 INFO Application started
+2020-10-22T16:37:30.178338+0300 INFO Fb2Reader object is created
+2020-10-22T16:37:30.199759+0300 INFO FileService object is created
+2020-10-22T16:37:30.309916+0300 INFO FileInfo object is created
+2020-10-22T16:37:30.763899+0300 INFO FileService object is created
+2020-10-22T16:37:30.786650+0300 INFO FileInfo object is created
+2020-10-22T16:37:30.857643+0300 INFO FileService object is created
+2020-10-22T16:37:30.974726+0300 INFO FileInfo object is created
+2020-10-22T16:38:38.756061+0300 INFO Application started
+2020-10-22T16:38:38.756930+0300 INFO Fb2Reader object is created
+2020-10-22T16:38:38.762932+0300 INFO FileService object is created
+2020-10-22T16:38:38.776928+0300 INFO FileInfo object is created
+2020-10-22T16:38:38.833684+0300 INFO FileService object is created
+2020-10-22T16:38:38.959639+0300 INFO FileInfo object is created
+2020-10-22T16:38:39.354499+0300 INFO FileService object is created
+2020-10-22T16:38:39.476705+0300 INFO FileInfo object is created
+2020-10-22T16:38:53.457900+0300 INFO Application started
+2020-10-22T16:38:53.459840+0300 INFO Fb2Reader object is created
+2020-10-22T16:38:53.469407+0300 INFO accommodation - Copy.csvis moved to the incorrect_input folder
+2020-10-22T16:38:53.500164+0300 INFO FileService object is created
+2020-10-22T16:38:53.646484+0300 INFO FileInfo object is created
+2020-10-22T16:38:54.028430+0300 INFO FileService object is created
+2020-10-22T16:38:54.190063+0300 INFO FileInfo object is created
+2020-10-22T16:38:54.597377+0300 INFO FileService object is created
+2020-10-22T16:38:54.618509+0300 INFO FileInfo object is created
+2020-10-22T16:46:47.459175+0300 INFO Application started
+2020-10-22T16:46:47.460176+0300 INFO Fb2Reader object is created
+2020-10-22T16:46:47.478228+0300 INFO FileService object is created
+2020-10-22T16:46:47.479175+0300 INFO Book name is extracted: Цветы для Элджернона
+2020-10-22T16:46:47.479450+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:46:47.492296+0300 INFO Number of words is calculated
+2020-10-22T16:46:47.511175+0300 INFO Number of letters is calculated
+2020-10-22T16:46:47.545258+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:46:47.576661+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:46:47.576661+0300 INFO FileInfo object is created
+2020-10-22T16:46:47.958079+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:46:48.002449+0300 INFO FileService object is created
+2020-10-22T16:46:48.003451+0300 INFO Book name is extracted: Цветы для Элджернона
+2020-10-22T16:46:48.004452+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:46:48.019120+0300 INFO Number of words is calculated
+2020-10-22T16:46:48.045916+0300 INFO Number of letters is calculated
+2020-10-22T16:46:48.075311+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:46:48.099110+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:46:48.099110+0300 INFO FileInfo object is created
+2020-10-22T16:46:48.384371+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:46:48.398578+0300 INFO FileService object is created
+2020-10-22T16:46:48.399824+0300 INFO Book name is extracted: Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-22T16:46:48.399824+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:46:48.402576+0300 INFO Number of words is calculated
+2020-10-22T16:46:48.408581+0300 INFO Number of letters is calculated
+2020-10-22T16:46:48.416236+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:46:48.421112+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:46:48.421112+0300 INFO FileInfo object is created
+2020-10-22T16:46:48.486303+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:47:03.415768+0300 INFO Application started
+2020-10-22T16:47:03.417769+0300 INFO Fb2Reader object is created
+2020-10-22T16:47:03.425392+0300 INFO FileService object is created
+2020-10-22T16:47:03.426168+0300 INFO Book name is extracted: Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-22T16:47:03.427167+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:47:03.430166+0300 INFO Number of words is calculated
+2020-10-22T16:47:03.437172+0300 INFO Number of letters is calculated
+2020-10-22T16:47:03.443251+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:47:03.447624+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:47:03.448172+0300 INFO FileInfo object is created
+2020-10-22T16:47:03.487365+0300 INFO Word frequency is calculated
+2020-10-22T16:47:03.505360+0300 INFO FileService object is created
+2020-10-22T16:47:03.506362+0300 INFO Book name is extracted: Цветы для Элджернона
+2020-10-22T16:47:03.506362+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:47:03.520955+0300 INFO Number of words is calculated
+2020-10-22T16:47:03.551991+0300 INFO Number of letters is calculated
+2020-10-22T16:47:03.612429+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:47:03.652102+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:47:03.652102+0300 INFO FileInfo object is created
+2020-10-22T16:47:03.955820+0300 INFO Word frequency is calculated
+2020-10-22T16:47:03.980985+0300 INFO FileService object is created
+2020-10-22T16:47:03.980985+0300 INFO Book name is extracted: Цветы для Элджернона
+2020-10-22T16:47:03.981986+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:47:03.991986+0300 INFO Number of words is calculated
+2020-10-22T16:47:04.014419+0300 INFO Number of letters is calculated
+2020-10-22T16:47:04.042167+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:47:04.065173+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:47:04.066300+0300 INFO FileInfo object is created
+2020-10-22T16:47:04.389352+0300 INFO Word frequency is calculated
+2020-10-22T16:52:07.272488+0300 INFO Application started
+2020-10-22T16:52:07.273592+0300 INFO Fb2Reader object is created
+2020-10-22T16:52:07.276653+0300 INFO Incorrect files are removed
+2020-10-22T16:52:07.277558+0300 INFO File search is done
+2020-10-22T16:52:07.297687+0300 INFO File is parsed
+2020-10-22T16:52:07.297687+0300 INFO FileService object is created
+2020-10-22T16:52:07.298836+0300 INFO Book name is extracted
+2020-10-22T16:52:07.298836+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-22T16:52:07.299689+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:52:07.299689+0300 DEBUG Number of paragraphs: 2224
+2020-10-22T16:52:07.313684+0300 INFO Number of words is calculated
+2020-10-22T16:52:07.313684+0300 DEBUG Number of words: 62310
+2020-10-22T16:52:07.338123+0300 INFO Number of letters is calculated
+2020-10-22T16:52:07.338368+0300 DEBUG Number of letters: 305812
+2020-10-22T16:52:07.393346+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:52:07.393346+0300 DEBUG Number of words with capital letter : 9903
+2020-10-22T16:52:07.438219+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:52:07.439149+0300 DEBUG Number of words lowercase : 52302
+2020-10-22T16:52:07.439149+0300 INFO FileInfo object is created
+2020-10-22T16:52:07.755096+0300 INFO Word frequency is calculated
+2020-10-22T16:52:07.766181+0300 INFO File is parsed
+2020-10-22T16:52:07.767101+0300 INFO FileService object is created
+2020-10-22T16:52:07.768340+0300 INFO Book name is extracted
+2020-10-22T16:52:07.768340+0300 DEBUG Book name is : Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-22T16:52:07.768340+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:52:07.769098+0300 DEBUG Number of paragraphs: 176
+2020-10-22T16:52:07.770100+0300 INFO Number of words is calculated
+2020-10-22T16:52:07.771099+0300 DEBUG Number of words: 7994
+2020-10-22T16:52:07.773097+0300 INFO Number of letters is calculated
+2020-10-22T16:52:07.773097+0300 DEBUG Number of letters: 49309
+2020-10-22T16:52:07.779101+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:52:07.780097+0300 DEBUG Number of words with capital letter : 1831
+2020-10-22T16:52:07.783099+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:52:07.784101+0300 DEBUG Number of words lowercase : 6145
+2020-10-22T16:52:07.784101+0300 INFO FileInfo object is created
+2020-10-22T16:52:07.815981+0300 INFO Word frequency is calculated
+2020-10-22T16:52:07.831053+0300 INFO File is parsed
+2020-10-22T16:52:07.832053+0300 INFO FileService object is created
+2020-10-22T16:52:07.832053+0300 INFO Book name is extracted
+2020-10-22T16:52:07.832053+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-22T16:52:07.833160+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:52:07.833160+0300 DEBUG Number of paragraphs: 2224
+2020-10-22T16:52:07.843053+0300 INFO Number of words is calculated
+2020-10-22T16:52:07.843053+0300 DEBUG Number of words: 62310
+2020-10-22T16:52:07.860111+0300 INFO Number of letters is calculated
+2020-10-22T16:52:07.861298+0300 DEBUG Number of letters: 305812
+2020-10-22T16:52:07.891303+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:52:07.892251+0300 DEBUG Number of words with capital letter : 9903
+2020-10-22T16:52:07.916286+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:52:07.916286+0300 DEBUG Number of words lowercase : 52302
+2020-10-22T16:52:07.917286+0300 INFO FileInfo object is created
+2020-10-22T16:52:08.241073+0300 INFO Word frequency is calculated
+2020-10-22T16:53:21.073512+0300 INFO ------------------------------------
+2020-10-22T16:53:21.119743+0300 INFO Application started
+2020-10-22T16:53:21.119743+0300 INFO ------------------------------------
+2020-10-22T16:53:21.376166+0300 INFO Fb2Reader object is created
+2020-10-22T16:53:21.379236+0300 INFO Incorrect files are removed
+2020-10-22T16:53:21.380800+0300 INFO File search is done
+2020-10-22T16:53:21.445952+0300 INFO File is parsed
+2020-10-22T16:53:21.446952+0300 INFO FileService object is created
+2020-10-22T16:53:21.447953+0300 INFO Book name is extracted
+2020-10-22T16:53:21.447953+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-22T16:53:21.449895+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:53:21.450821+0300 DEBUG Number of paragraphs: 2224
+2020-10-22T16:53:21.501112+0300 INFO Number of words is calculated
+2020-10-22T16:53:21.502733+0300 DEBUG Number of words: 62310
+2020-10-22T16:53:21.563186+0300 INFO Number of letters is calculated
+2020-10-22T16:53:21.565185+0300 DEBUG Number of letters: 305812
+2020-10-22T16:53:21.634756+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:53:21.635831+0300 DEBUG Number of words with capital letter : 9903
+2020-10-22T16:53:21.683226+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:53:21.683605+0300 DEBUG Number of words lowercase : 52302
+2020-10-22T16:53:21.683605+0300 INFO FileInfo object is created
+2020-10-22T16:53:22.005957+0300 INFO Word frequency is calculated
+2020-10-22T16:53:22.030922+0300 INFO File is parsed
+2020-10-22T16:53:22.032026+0300 INFO FileService object is created
+2020-10-22T16:53:22.032904+0300 INFO Book name is extracted
+2020-10-22T16:53:22.032904+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-22T16:53:22.033904+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:53:22.033904+0300 DEBUG Number of paragraphs: 2224
+2020-10-22T16:53:22.048326+0300 INFO Number of words is calculated
+2020-10-22T16:53:22.049030+0300 DEBUG Number of words: 62310
+2020-10-22T16:53:22.074604+0300 INFO Number of letters is calculated
+2020-10-22T16:53:22.074604+0300 DEBUG Number of letters: 305812
+2020-10-22T16:53:22.119682+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:53:22.119682+0300 DEBUG Number of words with capital letter : 9903
+2020-10-22T16:53:22.151888+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:53:22.151888+0300 DEBUG Number of words lowercase : 52302
+2020-10-22T16:53:22.152707+0300 INFO FileInfo object is created
+2020-10-22T16:53:22.472991+0300 INFO Word frequency is calculated
+2020-10-22T16:53:22.482889+0300 INFO File is parsed
+2020-10-22T16:53:22.484890+0300 INFO FileService object is created
+2020-10-22T16:53:22.484890+0300 INFO Book name is extracted
+2020-10-22T16:53:22.484890+0300 DEBUG Book name is : Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-22T16:53:22.485894+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:53:22.485894+0300 DEBUG Number of paragraphs: 176
+2020-10-22T16:53:22.487889+0300 INFO Number of words is calculated
+2020-10-22T16:53:22.488891+0300 DEBUG Number of words: 7994
+2020-10-22T16:53:22.491890+0300 INFO Number of letters is calculated
+2020-10-22T16:53:22.491890+0300 DEBUG Number of letters: 49309
+2020-10-22T16:53:22.500890+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:53:22.501894+0300 DEBUG Number of words with capital letter : 1831
+2020-10-22T16:53:22.506890+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:53:22.506890+0300 DEBUG Number of words lowercase : 6145
+2020-10-22T16:53:22.507891+0300 INFO FileInfo object is created
+2020-10-22T16:53:22.551043+0300 INFO Word frequency is calculated
+2020-10-22T16:54:45.288773+0300 INFO ------------------------------------
+2020-10-22T16:54:45.290770+0300 INFO Application started
+2020-10-22T16:54:45.290770+0300 INFO ------------------------------------
+2020-10-22T16:54:45.290770+0300 INFO Fb2Reader object is created
+2020-10-22T16:54:45.291771+0300 INFO Incorrect files are removed
+2020-10-22T16:54:45.292771+0300 INFO File search is done
+2020-10-22T16:54:45.296768+0300 INFO File is parsed
+2020-10-22T16:54:45.297828+0300 INFO FileService object is created
+2020-10-22T16:54:45.297828+0300 INFO Book name is extracted
+2020-10-22T16:54:45.297828+0300 DEBUG Book name is : Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-22T16:54:45.298768+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:54:45.298768+0300 DEBUG Number of paragraphs: 176
+2020-10-22T16:54:45.299767+0300 INFO Number of words is calculated
+2020-10-22T16:54:45.299767+0300 DEBUG Number of words: 7994
+2020-10-22T16:54:45.302768+0300 INFO Number of letters is calculated
+2020-10-22T16:54:45.303770+0300 DEBUG Number of letters: 49309
+2020-10-22T16:54:45.306767+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:54:45.307767+0300 DEBUG Number of words with capital letter : 1831
+2020-10-22T16:54:45.311824+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:54:45.311824+0300 DEBUG Number of words lowercase : 6145
+2020-10-22T16:54:45.312769+0300 INFO FileInfo object is created
+2020-10-22T16:54:45.352486+0300 INFO Word frequency is calculated
+2020-10-22T16:54:45.374616+0300 INFO File is parsed
+2020-10-22T16:54:45.375723+0300 INFO FileService object is created
+2020-10-22T16:54:45.376545+0300 INFO Book name is extracted
+2020-10-22T16:54:45.376545+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-22T16:54:45.378038+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:54:45.378544+0300 DEBUG Number of paragraphs: 2224
+2020-10-22T16:54:45.391545+0300 INFO Number of words is calculated
+2020-10-22T16:54:45.391545+0300 DEBUG Number of words: 62310
+2020-10-22T16:54:45.419581+0300 INFO Number of letters is calculated
+2020-10-22T16:54:45.419581+0300 DEBUG Number of letters: 305812
+2020-10-22T16:54:45.484697+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:54:45.484697+0300 DEBUG Number of words with capital letter : 9903
+2020-10-22T16:54:45.534602+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:54:45.535601+0300 DEBUG Number of words lowercase : 52302
+2020-10-22T16:54:45.535601+0300 INFO FileInfo object is created
+2020-10-22T16:54:45.915670+0300 INFO Word frequency is calculated
+2020-10-22T16:54:45.942680+0300 INFO File is parsed
+2020-10-22T16:54:45.945681+0300 INFO FileService object is created
+2020-10-22T16:54:45.946681+0300 INFO Book name is extracted
+2020-10-22T16:54:45.947679+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-22T16:54:45.948682+0300 INFO Number of paragraphs is calculated
+2020-10-22T16:54:45.948682+0300 DEBUG Number of paragraphs: 2224
+2020-10-22T16:54:45.960679+0300 INFO Number of words is calculated
+2020-10-22T16:54:45.961679+0300 DEBUG Number of words: 62310
+2020-10-22T16:54:45.980680+0300 INFO Number of letters is calculated
+2020-10-22T16:54:45.980680+0300 DEBUG Number of letters: 305812
+2020-10-22T16:54:46.010916+0300 INFO Number of words with capital letter is calculated
+2020-10-22T16:54:46.010916+0300 DEBUG Number of words with capital letter : 9903
+2020-10-22T16:54:46.035640+0300 INFO Number of words in lowercase is calculated
+2020-10-22T16:54:46.036514+0300 DEBUG Number of words lowercase : 52302
+2020-10-22T16:54:46.036514+0300 INFO FileInfo object is created
+2020-10-22T16:54:46.327606+0300 INFO Word frequency is calculated
+2020-10-22T16:54:46.332604+0300 INFO ------------------------------------
+2020-10-22T16:54:46.333606+0300 INFO Application ended
+2020-10-22T16:54:46.333881+0300 INFO ------------------------------------

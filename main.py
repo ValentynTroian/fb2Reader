@@ -8,13 +8,12 @@ import collections
 import re
 
 
-
 # Class stores file info before it is loaded to the database
 class FileInfo:
 
     def __init__(self, book_name, number_of_paragraph, number_of_words, number_of_letters
                  , words_with_capital_letters, words_in_lowercase):
-        logging.info('FileInfo object is created')
+        logger.info('FileInfo object is created')
         self.book_name = book_name
         self.number_of_paragraph = number_of_paragraph
         self.number_of_words = number_of_words
@@ -22,6 +21,7 @@ class FileInfo:
         self.words_with_capital_letters = words_with_capital_letters
         self.words_in_lowercase = words_in_lowercase
 
+    @logger.catch()
     def print(self):
         print('Book name:', self.book_name)
         print('Number of paragraphs:', self.number_of_paragraph)
@@ -35,18 +35,20 @@ class FileInfo:
 class Fb2Reader:
 
     def __init__(self):
-        logging.info('Fb2Reader object is created')
+        logger.info('Fb2Reader object is created')
 
     @logger.catch()
     def fb2_file_search(self):
         os.chdir('./res/input')
         self.__incorrect_file_removal()
         fb2_file_list = {file for file in glob.glob("*.fb2")}
+        logger.info('File search is done')
         return fb2_file_list
 
     @logger.catch()
     def parse_fb2(self, fb2_file):
         tree = ET.parse(fb2_file)
+        logger.info('File is parsed')
         return tree
 
     @logger.catch()
@@ -60,21 +62,25 @@ class Fb2Reader:
         os.chdir('./input')
         for f in file_list:
             shutil.move(f, os.path.dirname(os.getcwd()) + '\\incorrect_input')
+            logger.debug(f + ' is moved to the incorrect_input folder')
+        logger.info('Incorrect files are removed')
 
 
 # Class provides functionality to analyse fb2 files
 class FileService:
 
     def __init__(self):
-        logging.info('FileService object is created')
+        logger.info('FileService object is created')
 
     @logger.catch()
     def count_paragraph(self, elem_tree):
-        i = 0
+        cnt_par = 0
         for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}section'):
             for paragraph in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
-                i = i + 1
-        return i
+                cnt_par += 1
+        logger.info('Number of paragraphs is calculated')
+        logger.debug('Number of paragraphs: ' + str(cnt_par))
+        return cnt_par
 
     @logger.catch()
     def count_words(self, elem_tree):
@@ -83,7 +89,9 @@ class FileService:
             for paragraph in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
                 if (paragraph.text is None) or (len(paragraph.text) == 0):
                     continue
-                cnt_words = cnt_words + len(paragraph.text.split())
+                cnt_words += len(paragraph.text.split())
+        logger.info('Number of words is calculated')
+        logger.debug('Number of words: ' + str(cnt_words))
         return cnt_words
 
     @logger.catch()
@@ -94,7 +102,9 @@ class FileService:
                 if (paragraph.text is None) or (len(paragraph.text) == 0):
                     continue
                 for word in paragraph.text.split():
-                    cnt_letters = cnt_letters + len(word)
+                    cnt_letters += len(word)
+        logger.info('Number of letters is calculated')
+        logger.debug('Number of letters: ' + str(cnt_letters))
         return cnt_letters
 
     @logger.catch()
@@ -107,6 +117,8 @@ class FileService:
                 for word in paragraph.text.split():
                     if word == word.capitalize():
                         cnt_cap_letters += 1
+        logger.info('Number of words with capital letter is calculated')
+        logger.debug('Number of words with capital letter : ' + str(cnt_cap_letters))
         return cnt_cap_letters
 
     @logger.catch()
@@ -119,22 +131,24 @@ class FileService:
                 for word in paragraph.text.split():
                     if word.islower():
                         cnt_low_letters += 1
+        logger.info('Number of words in lowercase is calculated')
+        logger.debug('Number of words lowercase : ' + str(cnt_low_letters))
         return cnt_low_letters
 
+    @logger.catch()
     def get_book_name(self, elem_tree):
         book_name = ""
         for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}title-info'):
             for title in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}book-title'):
                 book_name = title.text
+        logger.info('Book name is extracted')
+        logger.debug('Book name is : ' + book_name)
         return book_name
 
     @logger.catch()
     def word_frequency(self, elem_tree):
-        cnt_low_letters = 0
-        word_dictionary = {}
         word_list_full = []
-        word_list_merged = []
-        all_words_dict = collections.Counter()
+        all_words_frequency_dict = collections.Counter()
         capitalized_words_dict = collections.Counter()
         for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}section'):
             for paragraph in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
@@ -144,15 +158,14 @@ class FileService:
         word_list_full = [re.sub(r'[^\w\s]', '', item) for item in word_list_full]
         for word_all in word_list_full:
             if word_all.lower() != '':
-                all_words_dict[word_all.lower()] += 1
+                all_words_frequency_dict[word_all.lower()] += 1
         for word_cap in word_list_full:
             if word_cap.capitalize() == word_cap:
                 if word_cap.lower() != '':
                     capitalized_words_dict[word_cap.lower()] += 1
-        print(all_words_dict)
-        print(capitalized_words_dict)
-        word_dict_combined = {key: [all_words_dict[key.lower()], capitalized_words_dict[key.lower()]] for key in all_words_dict}
-        print(word_dict_combined)
+        word_dict_combined = {key: [all_words_frequency_dict[key.lower()],
+                                    capitalized_words_dict[key.lower()]] for key in all_words_frequency_dict}
+        logger.info('Word frequency is calculated')
         return word_dict_combined
 
 
@@ -160,25 +173,33 @@ class FileService:
 class DBWriter:
 
     def __init__(self):
-        logging.info('DBWriter object is created')
+        logger.info('DBWriter object is created')
 
 
-logger.add('debug.log', format="{time} {level} {message}", level="DEBUG", rotation="1 day", compression="zip")
-logger.info('Application started')
+@logger.catch()
+def main():
+    logger.add('debug.log', format="{time} {level} {message}", level="DEBUG", rotation="1 day", compression="zip")
+    logger.info('------------------------------------')
+    logger.info('Application started')
+    logger.info('------------------------------------')
 
-search = Fb2Reader()
-for fb2_file in search.fb2_file_search():
-    tree = search.parse_fb2(fb2_file)
-    print('ff')
-    file_service = FileService()
-    # get all attributes
-    book_name = str(file_service.get_book_name(tree))
-    paragraph_cnt = str(file_service.count_paragraph(tree))
-    word_count = str(file_service.count_words(tree))
-    letters_count = str(file_service.count_letters(tree))
-    words_with_capital_letter = str(file_service.count_words_with_capital_letters(tree))
-    words_with_lowercase_letter = str(file_service.count_words_with_lowercase_letters(tree))
-    book = FileInfo(book_name, paragraph_cnt, word_count, letters_count, words_with_capital_letter
-                    , words_with_lowercase_letter)
-    book.print()
-    file_service.word_frequency(tree)
+    search = Fb2Reader()
+    for fb2_file in search.fb2_file_search():
+        tree = search.parse_fb2(fb2_file)
+        file_service = FileService()
+        # get all attributes
+        book_name = str(file_service.get_book_name(tree))
+        paragraph_cnt = str(file_service.count_paragraph(tree))
+        word_count = str(file_service.count_words(tree))
+        letters_count = str(file_service.count_letters(tree))
+        words_with_capital_letter = str(file_service.count_words_with_capital_letters(tree))
+        words_with_lowercase_letter = str(file_service.count_words_with_lowercase_letters(tree))
+        book = FileInfo(book_name, paragraph_cnt, word_count, letters_count, words_with_capital_letter
+                        , words_with_lowercase_letter)
+        book.print()
+        file_service.word_frequency(tree)
+    logger.info('------------------------------------')
+    logger.info('Application ended')
+    logger.info('------------------------------------')
+
+main()
