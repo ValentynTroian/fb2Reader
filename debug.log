@@ -1,281 +1,192 @@
-2020-10-22T12:36:48.561731+0300 INFO Application started
-2020-10-22T14:34:56.694022+0300 INFO Application started
-2020-10-22T14:38:01.791262+0300 INFO Application started
-2020-10-22T14:38:23.571722+0300 INFO Application started
-2020-10-22T14:38:42.110769+0300 INFO Application started
-2020-10-22T14:41:29.715920+0300 INFO Application started
-2020-10-22T14:54:38.102681+0300 INFO Application started
-2020-10-22T14:56:40.337244+0300 INFO Application started
-2020-10-22T14:56:40.470243+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (24904), thread 'MainThread' (21364):
-Traceback (most recent call last):
-
-> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 187, in <module>
-    file_service.word_frequency(tree)
-    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000227FC49C4F0>
-    |            -> <function FileService.word_frequency at 0x00000227FC458700>
-    -> <__main__.FileService object at 0x00000227FC365AC0>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 146, in word_frequency
-    c2[word_cap.capitalyze()] += 1
-    |  -> 'Док'
-    -> Counter()
-
-AttributeError: 'str' object has no attribute 'capitalyze'
-2020-10-22T14:56:40.628241+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (24904), thread 'MainThread' (21364):
-Traceback (most recent call last):
-
-> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 187, in <module>
-    file_service.word_frequency(tree)
-    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000227FC37F160>
-    |            -> <function FileService.word_frequency at 0x00000227FC458700>
-    -> <__main__.FileService object at 0x00000227FC36F0D0>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 146, in word_frequency
-    c2[word_cap.capitalyze()] += 1
-    |  -> 'Док'
-    -> Counter()
-
-AttributeError: 'str' object has no attribute 'capitalyze'
-2020-10-22T14:56:40.652241+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (24904), thread 'MainThread' (21364):
-Traceback (most recent call last):
-
-> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 187, in <module>
-    file_service.word_frequency(tree)
-    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000227FC36F040>
-    |            -> <function FileService.word_frequency at 0x00000227FC458700>
-    -> <__main__.FileService object at 0x00000227FC36FF40>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 146, in word_frequency
-    c2[word_cap.capitalyze()] += 1
-    |  -> 'Сонет'
-    -> Counter()
-
-AttributeError: 'str' object has no attribute 'capitalyze'
-2020-10-22T14:57:43.959459+0300 INFO Application started
-2020-10-22T14:58:05.111923+0300 INFO Application started
-2020-10-22T14:58:37.673798+0300 INFO Application started
-2020-10-22T14:59:09.427033+0300 INFO Application started
-2020-10-22T15:03:02.245143+0300 INFO Application started
-2020-10-22T15:03:14.323510+0300 INFO Application started
-2020-10-22T15:03:37.979901+0300 INFO Application started
-2020-10-22T15:03:51.514806+0300 INFO Application started
-2020-10-22T15:04:08.501342+0300 INFO Application started
-2020-10-22T15:04:18.297273+0300 INFO Application started
-2020-10-22T15:05:16.761089+0300 INFO Application started
-2020-10-22T15:05:31.549454+0300 INFO Application started
-2020-10-22T15:06:23.692011+0300 INFO Application started
-2020-10-22T15:06:29.666651+0300 INFO Application started
-2020-10-22T15:06:51.994216+0300 INFO Application started
-2020-10-22T15:07:47.436153+0300 INFO Application started
-2020-10-22T15:07:59.571904+0300 INFO Application started
-2020-10-22T15:10:26.819556+0300 INFO Application started
-2020-10-22T15:18:38.263025+0300 INFO Application started
-2020-10-22T15:24:00.947583+0300 INFO Application started
-2020-10-22T15:24:27.593106+0300 INFO Application started
-2020-10-22T15:24:40.231560+0300 INFO Application started
-2020-10-22T15:28:48.835842+0300 INFO Application started
-2020-10-22T15:29:00.770745+0300 INFO Application started
-2020-10-22T15:29:32.170386+0300 INFO Application started
-2020-10-22T15:29:32.395379+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (8944), thread 'MainThread' (21000):
-Traceback (most recent call last):
-
-> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
-    file_service.word_frequency(tree)
-    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x000001833756B550>
-    |            -> <function FileService.word_frequency at 0x0000018337528790>
-    -> <__main__.FileService object at 0x0000018337435B20>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 142, in word_frequency
-    word_list_full += re.sub('/w', '', paragraph.text.split())
-    |                 |  |             |         -> <attribute 'text' of 'xml.etree.ElementTree.Element' objects>
-    |                 |  |             -> <Element '{http://www.gribuser.ru/xml/fictionbook/2.0}p' at 0x0000018337579180>
-    |                 |  -> <function sub at 0x0000018336CF4280>
-    |                 -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
-    -> []
-
-  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
-    return _compile(pattern, flags).sub(repl, string, count)
-           |        |        |          |     |       -> 0
-           |        |        |          |     -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
-           |        |        |          -> ''
-           |        |        -> 0
-           |        -> '/w'
-           -> <function _compile at 0x0000018336CF4790>
-
-TypeError: expected string or bytes-like object
-2020-10-22T15:29:32.599173+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (8944), thread 'MainThread' (21000):
-Traceback (most recent call last):
-
-> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
-    file_service.word_frequency(tree)
-    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x000001833744F130>
-    |            -> <function FileService.word_frequency at 0x0000018337528790>
-    -> <__main__.FileService object at 0x000001833743E0D0>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 142, in word_frequency
-    word_list_full += re.sub('/w', '', paragraph.text.split())
-    |                 |  |             |         -> <attribute 'text' of 'xml.etree.ElementTree.Element' objects>
-    |                 |  |             -> <Element '{http://www.gribuser.ru/xml/fictionbook/2.0}p' at 0x0000018337A61950>
-    |                 |  -> <function sub at 0x0000018336CF4280>
-    |                 -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
-    -> []
-
-  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
-    return _compile(pattern, flags).sub(repl, string, count)
-           |        |        |          |     |       -> 0
-           |        |        |          |     -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
-           |        |        |          -> ''
-           |        |        -> 0
-           |        -> '/w'
-           -> <function _compile at 0x0000018336CF4790>
-
-TypeError: expected string or bytes-like object
-2020-10-22T15:29:32.635469+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (8944), thread 'MainThread' (21000):
-Traceback (most recent call last):
-
-> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
-    file_service.word_frequency(tree)
-    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x000001833743E130>
-    |            -> <function FileService.word_frequency at 0x0000018337528790>
-    -> <__main__.FileService object at 0x000001833743E0A0>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 142, in word_frequency
-    word_list_full += re.sub('/w', '', paragraph.text.split())
-    |                 |  |             |         -> <attribute 'text' of 'xml.etree.ElementTree.Element' objects>
-    |                 |  |             -> <Element '{http://www.gribuser.ru/xml/fictionbook/2.0}p' at 0x000001833744A900>
-    |                 |  -> <function sub at 0x0000018336CF4280>
-    |                 -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
-    -> []
-
-  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
-    return _compile(pattern, flags).sub(repl, string, count)
-           |        |        |          |     |       -> 0
-           |        |        |          |     -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда']
-           |        |        |          -> ''
-           |        |        -> 0
-           |        -> '/w'
-           -> <function _compile at 0x0000018336CF4790>
-
-TypeError: expected string or bytes-like object
-2020-10-22T15:30:06.637715+0300 INFO Application started
-2020-10-22T15:30:06.672716+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (1116), thread 'MainThread' (23836):
-Traceback (most recent call last):
-
-> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
-    file_service.word_frequency(tree)
-    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000160639FB550>
-    |            -> <function FileService.word_frequency at 0x00000160639B8790>
-    -> <__main__.FileService object at 0x00000160639FB910>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 143, in word_frequency
-    word_list_lowercase = re.sub('/w', '', word_list_full.copy())
-                          |  |             |              -> <method 'copy' of 'list' objects>
-                          |  |             -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
-                          |  -> <function sub at 0x00000160632A4280>
-                          -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
-
-  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
-    return _compile(pattern, flags).sub(repl, string, count)
-           |        |        |          |     |       -> 0
-           |        |        |          |     -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
-           |        |        |          -> ''
-           |        |        -> 0
-           |        -> '/w'
-           -> <function _compile at 0x00000160632A4790>
-
-TypeError: expected string or bytes-like object
-2020-10-22T15:30:06.965785+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (1116), thread 'MainThread' (23836):
-Traceback (most recent call last):
-
-> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
-    file_service.word_frequency(tree)
-    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000160638C5EB0>
-    |            -> <function FileService.word_frequency at 0x00000160639B8790>
-    -> <__main__.FileService object at 0x00000160638C5400>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 143, in word_frequency
-    word_list_lowercase = re.sub('/w', '', word_list_full.copy())
-                          |  |             |              -> <method 'copy' of 'list' objects>
-                          |  |             -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
-                          |  -> <function sub at 0x00000160632A4280>
-                          -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
-
-  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
-    return _compile(pattern, flags).sub(repl, string, count)
-           |        |        |          |     |       -> 0
-           |        |        |          |     -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
-           |        |        |          -> ''
-           |        |        -> 0
-           |        -> '/w'
-           -> <function _compile at 0x00000160632A4790>
-
-TypeError: expected string or bytes-like object
-2020-10-22T15:30:07.152310+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (1116), thread 'MainThread' (23836):
-Traceback (most recent call last):
-
-> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 192, in <module>
-    file_service.word_frequency(tree)
-    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x00000160638C5820>
-    |            -> <function FileService.word_frequency at 0x00000160639B8790>
-    -> <__main__.FileService object at 0x00000160638DF160>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 143, in word_frequency
-    word_list_lowercase = re.sub('/w', '', word_list_full.copy())
-                          |  |             |              -> <method 'copy' of 'list' objects>
-                          |  |             -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
-                          |  -> <function sub at 0x00000160632A4280>
-                          -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
-
-  File "C:\Users\Krystsina_Bahdanava\AppData\Local\Programs\Python\Python38\lib\re.py", line 210, in sub
-    return _compile(pattern, flags).sub(repl, string, count)
-           |        |        |          |     |       -> 0
-           |        |        |          |     -> ['Док', 'Штраус', 'сказал', 'што', 'я', 'должен', 'писать', 'все', 'што', 'я', 'думаю', 'и', 'помню', 'и', 'все', 'што', 'слу...
-           |        |        |          -> ''
-           |        |        -> 0
-           |        -> '/w'
-           -> <function _compile at 0x00000160632A4790>
-
-TypeError: expected string or bytes-like object
-2020-10-22T15:34:50.792159+0300 INFO Application started
-2020-10-22T15:35:11.684104+0300 INFO Application started
-2020-10-22T15:36:09.704574+0300 INFO Application started
-2020-10-22T15:36:41.288224+0300 INFO Application started
-2020-10-22T15:37:29.173288+0300 INFO Application started
-2020-10-22T15:45:34.365210+0300 INFO Application started
-2020-10-22T15:45:39.367058+0300 INFO Application started
-2020-10-22T15:45:53.144695+0300 INFO Application started
-2020-10-22T15:46:07.307161+0300 INFO Application started
-2020-10-22T15:46:50.672642+0300 INFO Application started
-2020-10-22T15:46:50.691562+0300 ERROR An error has been caught in function '<module>', process 'MainProcess' (13708), thread 'MainThread' (10268):
-Traceback (most recent call last):
-
-> File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 197, in <module>
-    file_service.word_frequency(tree)
-    |            |              -> <xml.etree.ElementTree.ElementTree object at 0x000001943527B4C0>
-    |            -> <function FileService.word_frequency at 0x0000019435239790>
-    -> <__main__.FileService object at 0x000001943527B970>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 146, in word_frequency
-    lines = [re.sub(r'[^\w\s]', '', word_list_full[l]) for l in word_list_full]
-             |  |                   |                           -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
-             |  |                   -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
-             |  -> <function sub at 0x0000019434AF3280>
-             -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
-
-  File "C:/Users/Krystsina_Bahdanava/PycharmProjects/pdfReader/main.py", line 146, in <listcomp>
-    lines = [re.sub(r'[^\w\s]', '', word_list_full[l]) for l in word_list_full]
-             |  |                   |              |       |    -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
-             |  |                   |              |       -> 'Сонет'
-             |  |                   |              -> 'Сонет'
-             |  |                   -> ['Сонет', '17', 'Уильям', 'Шекспир,', '—', 'лит.', 'перевод', 'Свами', 'Ранинанда', 'Poster', '2020', '©', 'Swami', 'Runinand...
-             |  -> <function sub at 0x0000019434AF3280>
-             -> <module 're' from 'C:\\Users\\Krystsina_Bahdanava\\AppData\\Local\\Programs\\Python\\Python38\\lib\\re.py'>
-
-TypeError: list indices must be integers or slices, not str
-2020-10-22T15:47:03.649899+0300 INFO Application started
-2020-10-22T15:48:22.150682+0300 INFO Application started
-2020-10-22T15:48:43.361594+0300 INFO Application started
-2020-10-22T15:50:10.721365+0300 INFO Application started
-2020-10-22T15:51:05.988914+0300 INFO Application started
-2020-10-22T15:51:42.676985+0300 INFO Application started
-2020-10-22T15:52:28.368166+0300 INFO Application started
+2020-10-25T13:18:26.656545+0300 INFO ------------------------------------
+2020-10-25T13:18:26.676552+0300 INFO Application started
+2020-10-25T13:18:26.677553+0300 INFO ------------------------------------
+2020-10-25T13:18:26.678156+0300 INFO Connection to the database is established.
+2020-10-25T13:18:26.683227+0300 INFO Incorrect files are removed
+2020-10-25T13:18:26.684145+0300 INFO File search is done
+2020-10-25T13:18:26.716145+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:18:26.773220+0300 DEBUG Number of words: 62310 62898
+2020-10-25T13:18:26.850572+0300 DEBUG Number of letters: 305812 309276
+2020-10-25T13:18:26.921698+0300 DEBUG Number of words with capital letter : 9903 10043
+2020-10-25T13:18:26.967771+0300 DEBUG Number of words lowercase : 52302 52743
+2020-10-25T13:18:27.378760+0300 INFO Project tables are created
+2020-10-25T13:18:27.378760+0300 INFO Project tables are created
+2020-10-25T13:18:27.428824+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:18:27.454759+0300 DEBUG Number of words: 62310 62898
+2020-10-25T13:18:27.511096+0300 DEBUG Number of letters: 305812 309276
+2020-10-25T13:18:27.606799+0300 DEBUG Number of words with capital letter : 9903 10043
+2020-10-25T13:18:27.694872+0300 DEBUG Number of words lowercase : 52302 52743
+2020-10-25T13:18:28.207990+0300 INFO Project tables are created
+2020-10-25T13:18:28.207990+0300 INFO Project tables are created
+2020-10-25T13:18:28.236990+0300 DEBUG Book name is : Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-25T13:18:28.240002+0300 DEBUG Number of words: 7994 7994
+2020-10-25T13:18:28.243990+0300 DEBUG Number of letters: 49309 49309
+2020-10-25T13:18:28.250056+0300 DEBUG Number of words with capital letter : 1831 1831
+2020-10-25T13:18:28.255166+0300 DEBUG Number of words lowercase : 6145 6145
+2020-10-25T13:18:28.305135+0300 INFO Project tables are created
+2020-10-25T13:18:28.306035+0300 INFO Project tables are created
+2020-10-25T13:18:28.311033+0300 INFO Connection is closed.
+2020-10-25T13:18:28.311033+0300 INFO ------------------------------------
+2020-10-25T13:18:28.311033+0300 INFO Application ended
+2020-10-25T13:18:28.311495+0300 INFO ------------------------------------
+2020-10-25T13:20:21.482406+0300 INFO ------------------------------------
+2020-10-25T13:20:21.484423+0300 INFO Application started
+2020-10-25T13:20:21.485409+0300 INFO ------------------------------------
+2020-10-25T13:20:21.485409+0300 INFO Connection to the database is established.
+2020-10-25T13:20:21.487412+0300 INFO Incorrect files are removed
+2020-10-25T13:20:21.488406+0300 INFO File search is done
+2020-10-25T13:20:21.517427+0300 INFO File is parsed
+2020-10-25T13:20:21.517427+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:20:21.560942+0300 DEBUG Number of letters: 0 309276
+2020-10-25T13:20:22.190104+0300 INFO Project tables are created
+2020-10-25T13:20:22.190104+0300 INFO Project tables are created
+2020-10-25T13:20:22.214134+0300 INFO File is parsed
+2020-10-25T13:20:22.215103+0300 DEBUG Book name is : Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-25T13:20:22.219134+0300 DEBUG Number of letters: 0 49309
+2020-10-25T13:20:22.289101+0300 INFO Project tables are created
+2020-10-25T13:20:22.290263+0300 INFO Project tables are created
+2020-10-25T13:20:22.312098+0300 INFO File is parsed
+2020-10-25T13:20:22.313141+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:20:22.345762+0300 DEBUG Number of letters: 0 309276
+2020-10-25T13:20:22.894789+0300 INFO Project tables are created
+2020-10-25T13:20:22.895796+0300 INFO Project tables are created
+2020-10-25T13:20:22.935894+0300 INFO Connection is closed.
+2020-10-25T13:20:22.935894+0300 INFO ------------------------------------
+2020-10-25T13:20:22.936794+0300 INFO Application ended
+2020-10-25T13:20:22.936794+0300 INFO ------------------------------------
+2020-10-25T13:21:11.767587+0300 INFO ------------------------------------
+2020-10-25T13:21:11.771717+0300 INFO Application started
+2020-10-25T13:21:11.771717+0300 INFO ------------------------------------
+2020-10-25T13:21:11.773581+0300 INFO Connection to the database is established.
+2020-10-25T13:21:11.777581+0300 INFO Incorrect files are removed
+2020-10-25T13:21:11.779717+0300 INFO File search is done
+2020-10-25T13:21:11.831580+0300 INFO File is parsed
+2020-10-25T13:21:11.832587+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:21:12.528255+0300 INFO Project tables are created
+2020-10-25T13:21:12.529256+0300 INFO Project tables are created
+2020-10-25T13:21:12.575434+0300 INFO File is parsed
+2020-10-25T13:21:12.577430+0300 DEBUG Book name is : Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-25T13:21:12.682569+0300 INFO Project tables are created
+2020-10-25T13:21:12.683572+0300 INFO Project tables are created
+2020-10-25T13:21:12.712568+0300 INFO File is parsed
+2020-10-25T13:21:12.713569+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:21:13.214109+0300 INFO Project tables are created
+2020-10-25T13:21:13.214109+0300 INFO Project tables are created
+2020-10-25T13:21:13.231105+0300 INFO Connection is closed.
+2020-10-25T13:21:13.231105+0300 INFO ------------------------------------
+2020-10-25T13:21:13.231105+0300 INFO Application ended
+2020-10-25T13:21:13.231105+0300 INFO ------------------------------------
+2020-10-25T13:21:19.172704+0300 INFO ------------------------------------
+2020-10-25T13:21:19.173456+0300 INFO Application started
+2020-10-25T13:21:19.174469+0300 INFO ------------------------------------
+2020-10-25T13:21:19.174469+0300 INFO Connection to the database is established.
+2020-10-25T13:21:19.178418+0300 INFO Incorrect files are removed
+2020-10-25T13:21:19.178480+0300 INFO File search is done
+2020-10-25T13:21:19.199284+0300 INFO File is parsed
+2020-10-25T13:21:19.904353+0300 INFO Project tables are created
+2020-10-25T13:21:19.905277+0300 INFO Project tables are created
+2020-10-25T13:21:19.925880+0300 INFO File is parsed
+2020-10-25T13:21:19.989787+0300 INFO Project tables are created
+2020-10-25T13:21:19.990842+0300 INFO Project tables are created
+2020-10-25T13:21:20.006882+0300 INFO File is parsed
+2020-10-25T13:21:20.713875+0300 INFO Project tables are created
+2020-10-25T13:21:20.714877+0300 INFO Project tables are created
+2020-10-25T13:21:20.737997+0300 INFO Connection is closed.
+2020-10-25T13:21:20.738880+0300 INFO ------------------------------------
+2020-10-25T13:21:20.739293+0300 INFO Application ended
+2020-10-25T13:21:20.739293+0300 INFO ------------------------------------
+2020-10-25T13:21:41.022110+0300 INFO ------------------------------------
+2020-10-25T13:21:41.023042+0300 INFO Application started
+2020-10-25T13:21:41.024044+0300 INFO ------------------------------------
+2020-10-25T13:21:41.024650+0300 INFO Connection to the database is established.
+2020-10-25T13:21:41.028043+0300 INFO Incorrect files are removed
+2020-10-25T13:21:41.029043+0300 INFO File search is done
+2020-10-25T13:21:41.050040+0300 INFO File is parsed
+2020-10-25T13:21:41.713109+0300 INFO Project tables are created
+2020-10-25T13:21:41.713109+0300 INFO Book tables are created
+2020-10-25T13:21:41.755113+0300 INFO File is parsed
+2020-10-25T13:21:42.447550+0300 INFO Project tables are created
+2020-10-25T13:21:42.447550+0300 INFO Book tables are created
+2020-10-25T13:21:42.478620+0300 INFO File is parsed
+2020-10-25T13:21:42.554703+0300 INFO Project tables are created
+2020-10-25T13:21:42.555547+0300 INFO Book tables are created
+2020-10-25T13:21:42.561665+0300 INFO Connection is closed.
+2020-10-25T13:21:42.561665+0300 INFO ------------------------------------
+2020-10-25T13:21:42.561665+0300 INFO Application ended
+2020-10-25T13:21:42.561665+0300 INFO ------------------------------------
+2020-10-25T13:22:13.337815+0300 INFO ------------------------------------
+2020-10-25T13:22:13.338820+0300 INFO Application started
+2020-10-25T13:22:13.338820+0300 INFO ------------------------------------
+2020-10-25T13:22:13.339817+0300 INFO Connection to the database is established.
+2020-10-25T13:22:13.341817+0300 INFO Incorrect files are removed
+2020-10-25T13:22:13.341817+0300 INFO File search is done
+2020-10-25T13:22:13.346826+0300 INFO File is parsed
+2020-10-25T13:22:13.435821+0300 INFO Project tables are created if not exist
+2020-10-25T13:22:13.437239+0300 INFO Book table is created
+2020-10-25T13:22:13.463822+0300 INFO File is parsed
+2020-10-25T13:22:14.049241+0300 INFO Project tables are created if not exist
+2020-10-25T13:22:14.050342+0300 INFO Book table is created
+2020-10-25T13:22:14.092239+0300 INFO File is parsed
+2020-10-25T13:22:14.742144+0300 INFO Project tables are created if not exist
+2020-10-25T13:22:14.743233+0300 INFO Book table is created
+2020-10-25T13:22:14.768136+0300 INFO Connection is closed.
+2020-10-25T13:22:14.768136+0300 INFO ------------------------------------
+2020-10-25T13:22:14.768136+0300 INFO Application ended
+2020-10-25T13:22:14.769138+0300 INFO ------------------------------------
+2020-10-25T13:24:06.419234+0300 INFO ------------------------------------
+2020-10-25T13:24:06.421237+0300 INFO Application started
+2020-10-25T13:24:06.422532+0300 INFO ------------------------------------
+2020-10-25T13:24:06.424243+0300 INFO Connection to the database is established.
+2020-10-25T13:24:06.427534+0300 INFO Incorrect files are removed
+2020-10-25T13:24:06.469225+0300 INFO File search is done
+2020-10-25T13:24:06.551346+0300 INFO File is parsed
+2020-10-25T13:24:08.769578+0300 INFO Project tables are created if not exist
+2020-10-25T13:24:08.771589+0300 INFO Book table is created
+2020-10-25T13:24:08.832015+0300 INFO File is parsed
+2020-10-25T13:24:09.807549+0300 INFO Project tables are created if not exist
+2020-10-25T13:24:09.808660+0300 INFO Book table is created
+2020-10-25T13:24:09.845557+0300 INFO File is parsed
+2020-10-25T13:24:09.921600+0300 INFO Project tables are created if not exist
+2020-10-25T13:24:09.922551+0300 INFO Book table is created
+2020-10-25T13:24:09.927546+0300 INFO Connection is closed.
+2020-10-25T13:24:09.927546+0300 INFO ------------------------------------
+2020-10-25T13:24:09.927546+0300 INFO Application ended
+2020-10-25T13:24:09.927546+0300 INFO ------------------------------------
+2020-10-25T13:27:11.481215+0300 INFO ------------------------------------
+2020-10-25T13:27:11.507214+0300 INFO Application started
+2020-10-25T13:27:11.507214+0300 INFO ------------------------------------
+2020-10-25T13:27:11.508349+0300 INFO Connection to the database is established.
+2020-10-25T13:27:11.589133+0300 INFO Incorrect files are removed
+2020-10-25T13:27:11.592139+0300 INFO File search is done
+2020-10-25T13:27:11.781140+0300 INFO File is parsed
+2020-10-25T13:27:17.151106+0300 INFO Project tables are created if not exist
+2020-10-25T13:27:17.151106+0300 INFO Book table is created
+2020-10-25T13:27:17.221186+0300 INFO File is parsed
+2020-10-25T13:27:19.349388+0300 INFO Project tables are created if not exist
+2020-10-25T13:27:19.350388+0300 INFO Book table is created
+2020-10-25T13:27:19.395672+0300 INFO File is parsed
+2020-10-25T13:27:19.474667+0300 INFO Project tables are created if not exist
+2020-10-25T13:27:19.474667+0300 INFO Book table is created
+2020-10-25T13:27:19.480260+0300 INFO Connection is closed.
+2020-10-25T13:27:19.480670+0300 INFO ------------------------------------
+2020-10-25T13:27:19.480670+0300 INFO Application ended
+2020-10-25T13:27:19.481666+0300 INFO ------------------------------------
+2020-10-25T13:27:55.193411+0300 INFO ------------------------------------
+2020-10-25T13:27:55.195412+0300 INFO Application started
+2020-10-25T13:27:55.196410+0300 INFO ------------------------------------
+2020-10-25T13:27:55.197415+0300 INFO Connection to the database is established.
+2020-10-25T13:27:55.208406+0300 INFO Incorrect files are removed
+2020-10-25T13:27:55.214948+0300 INFO File search is done
+2020-10-25T13:27:55.368247+0300 INFO File is parsed
+2020-10-25T13:28:00.758375+0300 INFO Project tables are created if not exist
+2020-10-25T13:28:00.759376+0300 INFO Book table is created
+2020-10-25T13:28:00.872193+0300 INFO File is parsed
+2020-10-25T13:28:01.940450+0300 INFO Project tables are created if not exist
+2020-10-25T13:28:01.942553+0300 INFO Book table is created
+2020-10-25T13:28:01.993690+0300 INFO File is parsed
+2020-10-25T13:28:02.139521+0300 INFO Project tables are created if not exist
+2020-10-25T13:28:02.139521+0300 INFO Book table is created
+2020-10-25T13:28:02.157801+0300 INFO Connection is closed.
+2020-10-25T13:28:02.158801+0300 INFO ------------------------------------
+2020-10-25T13:28:02.158801+0300 INFO Application ended
+2020-10-25T13:28:02.159494+0300 INFO ------------------------------------
