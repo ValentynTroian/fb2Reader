@@ -24,7 +24,7 @@ class Fb2Reader:
     @logger.catch()
     def parse_fb2(self, fb2_file):
         tree = ET.parse(fb2_file)
-        # logger.info('File is parsed')
+        logger.info('File is parsed')
         return tree
 
     @logger.catch()
@@ -47,66 +47,59 @@ class FileService:
 
     @logger.catch()
     def count_paragraph(self, elem_tree):
-        cnt_par = 0
-        for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}section'):
-            for paragraph in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
-                cnt_par += 1
-        # logger.info('Number of paragraphs is calculated')
-        logger.debug('Number of paragraphs: ' + str(cnt_par))
-        return cnt_par
+        cnt_par_all = 0
+        # if we want to count all the paragraphs (all <p> elements)
+        for __ in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
+            cnt_par_all += 1
+        return cnt_par_all
 
     @logger.catch()
     def count_words(self, elem_tree):
-        cnt_words = 0
-        for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}section'):
-            for paragraph in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
-                if (paragraph.text is None) or (len(paragraph.text) == 0):
-                    continue
-                cnt_words += len(paragraph.text.split())
-        # logger.info('Number of words is calculated')
-        logger.debug('Number of words: ' + str(cnt_words))
-        return cnt_words
+        cnt_all_words = 0
+        # if we want to count all the words
+        for paragraphs in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
+            if (paragraphs.text is None) or (len(paragraphs.text) == 0):
+                continue
+            cnt_all_words += len(paragraphs.text.split())
+        return cnt_all_words
 
     @logger.catch()
     def count_letters(self, elem_tree):
-        cnt_letters = 0
-        for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}section'):
-            for paragraph in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
-                if (paragraph.text is None) or (len(paragraph.text) == 0):
-                    continue
-                for word in paragraph.text.split():
-                    cnt_letters += len(word)
-        # logger.info('Number of letters is calculated')
-        logger.debug('Number of letters: ' + str(cnt_letters))
-        return cnt_letters
+        cnt_letters_all = 0
+        # if we want to count all the letters
+        for paragraphs in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
+            if (paragraphs.text is None) or (len(paragraphs.text) == 0):
+                continue
+            for word in paragraphs.text.split():
+                cnt_letters_all += len(word)
+
+        return cnt_letters_all
 
     @logger.catch()
     def count_words_with_capital_letters(self, elem_tree):
-        cnt_cap_letters = 0
-        for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}section'):
-            for paragraph in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
-                if (paragraph.text is None) or (len(paragraph.text) == 0):
-                    continue
-                for word in paragraph.text.split():
-                    if word == word.capitalize():
-                        cnt_cap_letters += 1
-        # logger.info('Number of words with capital letter is calculated')
-        logger.debug('Number of words with capital letter : ' + str(cnt_cap_letters))
-        return cnt_cap_letters
+        cnt_cap_letters_all = 0
+
+        for paragraphs in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
+            if (paragraphs.text is None) or (len(paragraphs.text) == 0):
+                continue
+            for word in paragraphs.text.split():
+                if word == word.capitalize():
+                    cnt_cap_letters_all += 1
+
+        return cnt_cap_letters_all
 
     @logger.catch()
     def count_words_with_lowercase_letters(self, elem_tree):
-        cnt_low_letters = 0
-        for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}section'):
-            for paragraph in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
-                if (paragraph.text is None) or (len(paragraph.text) == 0):
-                    continue
-                for word in paragraph.text.split():
-                    if word.islower():
-                        cnt_low_letters += 1
-        # logger.info('Number of words in lowercase is calculated')
-        logger.debug('Number of words lowercase : ' + str(cnt_low_letters))
-        return cnt_low_letters
+        cnt_low_letters_all = 0
+
+        for paragraphs in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
+            if (paragraphs.text is None) or (len(paragraphs.text) == 0):
+                continue
+            for word in paragraphs.text.split():
+                if word.islower():
+                    cnt_low_letters_all += 1
+
+        return cnt_low_letters_all
 
     @logger.catch()
     def get_book_name(self, elem_tree):
@@ -114,8 +107,6 @@ class FileService:
         for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}title-info'):
             for title in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}book-title'):
                 book_name = title.text
-        # logger.info('Book name is extracted')
-        logger.debug('Book name is : ' + book_name)
         return book_name
 
     @logger.catch()
@@ -123,11 +114,11 @@ class FileService:
         word_list_full = []
         all_words_frequency_dict = collections.Counter()
         capitalized_words_dict = collections.Counter()
-        for section in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}section'):
-            for paragraph in section.findall('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
-                if (paragraph.text is None) or (len(paragraph.text) == 0):
-                    continue
-                word_list_full += paragraph.text.split()
+
+        for paragraphs in elem_tree.iter('{http://www.gribuser.ru/xml/fictionbook/2.0}p'):
+            if (paragraphs.text is None) or (len(paragraphs.text) == 0):
+                continue
+            word_list_full += paragraphs.text.split()
         word_list_full = [re.sub(r'[^\w\s]', '', item) for item in word_list_full]
         for word_all in word_list_full:
             if word_all.lower() != '':
@@ -138,7 +129,6 @@ class FileService:
                     capitalized_words_dict[word_cap.lower()] += 1
         word_dict_combined = {key: [all_words_frequency_dict[key.lower()],
                                     capitalized_words_dict[key.lower()]] for key in all_words_frequency_dict}
-        # logger.info('Word frequency is calculated')
         return word_dict_combined
 
 
@@ -147,11 +137,6 @@ class DBWriter:
 
     @logger.catch()
     def create_connection(self, db_file):
-        """ create a database connection to the SQLite database
-            specified by db_file
-        :param db_file: database file
-        :return: Connection object or None
-        """
         conn = None
         try:
             conn = sqlite3.connect(db_file)
@@ -171,11 +156,6 @@ class DBWriter:
 
     @logger.catch()
     def create_table(self, conn, create_table_sql):
-        """ create a table from the create_table_sql statement
-        :param conn: Connection object
-        :param create_table_sql: a CREATE TABLE statement
-        :return:
-        """
         try:
             c = conn.cursor()
             c.execute(create_table_sql)
@@ -201,7 +181,7 @@ class DBWriter:
         if conn is not None:
             # create projects table
             self.create_table(conn, sql_create_projects_table)
-            logger.info("Project tables are created")
+            logger.info("Book table is created")
         else:
             logger.error("Cannot create the database connection.")
 
@@ -235,7 +215,7 @@ class DBWriter:
         if conn is not None:
             # create projects table
             self.create_table(conn, sql_create_projects_table)
-            logger.info("Project tables are created")
+            logger.info("Project tables are created if not exist")
         else:
             logger.error("Cannot create the database connection.")
 
