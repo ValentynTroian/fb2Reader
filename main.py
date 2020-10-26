@@ -23,8 +23,11 @@ class Fb2Reader:
 
     @logger.catch()
     def parse_fb2(self, fb2_file):
-        tree = ET.parse(fb2_file)
-        logger.info('File is parsed')
+        try:
+            tree = ET.parse(fb2_file)
+            logger.info('File is parsed')
+        except Error as e:
+            logger.error('File is not parsed')
         return tree
 
     @logger.catch()
