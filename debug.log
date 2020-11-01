@@ -1,0 +1,192 @@
+2020-10-25T13:18:26.656545+0300 INFO ------------------------------------
+2020-10-25T13:18:26.676552+0300 INFO Application started
+2020-10-25T13:18:26.677553+0300 INFO ------------------------------------
+2020-10-25T13:18:26.678156+0300 INFO Connection to the database is established.
+2020-10-25T13:18:26.683227+0300 INFO Incorrect files are removed
+2020-10-25T13:18:26.684145+0300 INFO File search is done
+2020-10-25T13:18:26.716145+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:18:26.773220+0300 DEBUG Number of words: 62310 62898
+2020-10-25T13:18:26.850572+0300 DEBUG Number of letters: 305812 309276
+2020-10-25T13:18:26.921698+0300 DEBUG Number of words with capital letter : 9903 10043
+2020-10-25T13:18:26.967771+0300 DEBUG Number of words lowercase : 52302 52743
+2020-10-25T13:18:27.378760+0300 INFO Project tables are created
+2020-10-25T13:18:27.378760+0300 INFO Project tables are created
+2020-10-25T13:18:27.428824+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:18:27.454759+0300 DEBUG Number of words: 62310 62898
+2020-10-25T13:18:27.511096+0300 DEBUG Number of letters: 305812 309276
+2020-10-25T13:18:27.606799+0300 DEBUG Number of words with capital letter : 9903 10043
+2020-10-25T13:18:27.694872+0300 DEBUG Number of words lowercase : 52302 52743
+2020-10-25T13:18:28.207990+0300 INFO Project tables are created
+2020-10-25T13:18:28.207990+0300 INFO Project tables are created
+2020-10-25T13:18:28.236990+0300 DEBUG Book name is : Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-25T13:18:28.240002+0300 DEBUG Number of words: 7994 7994
+2020-10-25T13:18:28.243990+0300 DEBUG Number of letters: 49309 49309
+2020-10-25T13:18:28.250056+0300 DEBUG Number of words with capital letter : 1831 1831
+2020-10-25T13:18:28.255166+0300 DEBUG Number of words lowercase : 6145 6145
+2020-10-25T13:18:28.305135+0300 INFO Project tables are created
+2020-10-25T13:18:28.306035+0300 INFO Project tables are created
+2020-10-25T13:18:28.311033+0300 INFO Connection is closed.
+2020-10-25T13:18:28.311033+0300 INFO ------------------------------------
+2020-10-25T13:18:28.311033+0300 INFO Application ended
+2020-10-25T13:18:28.311495+0300 INFO ------------------------------------
+2020-10-25T13:20:21.482406+0300 INFO ------------------------------------
+2020-10-25T13:20:21.484423+0300 INFO Application started
+2020-10-25T13:20:21.485409+0300 INFO ------------------------------------
+2020-10-25T13:20:21.485409+0300 INFO Connection to the database is established.
+2020-10-25T13:20:21.487412+0300 INFO Incorrect files are removed
+2020-10-25T13:20:21.488406+0300 INFO File search is done
+2020-10-25T13:20:21.517427+0300 INFO File is parsed
+2020-10-25T13:20:21.517427+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:20:21.560942+0300 DEBUG Number of letters: 0 309276
+2020-10-25T13:20:22.190104+0300 INFO Project tables are created
+2020-10-25T13:20:22.190104+0300 INFO Project tables are created
+2020-10-25T13:20:22.214134+0300 INFO File is parsed
+2020-10-25T13:20:22.215103+0300 DEBUG Book name is : Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-25T13:20:22.219134+0300 DEBUG Number of letters: 0 49309
+2020-10-25T13:20:22.289101+0300 INFO Project tables are created
+2020-10-25T13:20:22.290263+0300 INFO Project tables are created
+2020-10-25T13:20:22.312098+0300 INFO File is parsed
+2020-10-25T13:20:22.313141+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:20:22.345762+0300 DEBUG Number of letters: 0 309276
+2020-10-25T13:20:22.894789+0300 INFO Project tables are created
+2020-10-25T13:20:22.895796+0300 INFO Project tables are created
+2020-10-25T13:20:22.935894+0300 INFO Connection is closed.
+2020-10-25T13:20:22.935894+0300 INFO ------------------------------------
+2020-10-25T13:20:22.936794+0300 INFO Application ended
+2020-10-25T13:20:22.936794+0300 INFO ------------------------------------
+2020-10-25T13:21:11.767587+0300 INFO ------------------------------------
+2020-10-25T13:21:11.771717+0300 INFO Application started
+2020-10-25T13:21:11.771717+0300 INFO ------------------------------------
+2020-10-25T13:21:11.773581+0300 INFO Connection to the database is established.
+2020-10-25T13:21:11.777581+0300 INFO Incorrect files are removed
+2020-10-25T13:21:11.779717+0300 INFO File search is done
+2020-10-25T13:21:11.831580+0300 INFO File is parsed
+2020-10-25T13:21:11.832587+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:21:12.528255+0300 INFO Project tables are created
+2020-10-25T13:21:12.529256+0300 INFO Project tables are created
+2020-10-25T13:21:12.575434+0300 INFO File is parsed
+2020-10-25T13:21:12.577430+0300 DEBUG Book name is : Сонет 17 Уильям Шекспир. - лит. перевод Свами Ранинанда
+2020-10-25T13:21:12.682569+0300 INFO Project tables are created
+2020-10-25T13:21:12.683572+0300 INFO Project tables are created
+2020-10-25T13:21:12.712568+0300 INFO File is parsed
+2020-10-25T13:21:12.713569+0300 DEBUG Book name is : Цветы для Элджернона
+2020-10-25T13:21:13.214109+0300 INFO Project tables are created
+2020-10-25T13:21:13.214109+0300 INFO Project tables are created
+2020-10-25T13:21:13.231105+0300 INFO Connection is closed.
+2020-10-25T13:21:13.231105+0300 INFO ------------------------------------
+2020-10-25T13:21:13.231105+0300 INFO Application ended
+2020-10-25T13:21:13.231105+0300 INFO ------------------------------------
+2020-10-25T13:21:19.172704+0300 INFO ------------------------------------
+2020-10-25T13:21:19.173456+0300 INFO Application started
+2020-10-25T13:21:19.174469+0300 INFO ------------------------------------
+2020-10-25T13:21:19.174469+0300 INFO Connection to the database is established.
+2020-10-25T13:21:19.178418+0300 INFO Incorrect files are removed
+2020-10-25T13:21:19.178480+0300 INFO File search is done
+2020-10-25T13:21:19.199284+0300 INFO File is parsed
+2020-10-25T13:21:19.904353+0300 INFO Project tables are created
+2020-10-25T13:21:19.905277+0300 INFO Project tables are created
+2020-10-25T13:21:19.925880+0300 INFO File is parsed
+2020-10-25T13:21:19.989787+0300 INFO Project tables are created
+2020-10-25T13:21:19.990842+0300 INFO Project tables are created
+2020-10-25T13:21:20.006882+0300 INFO File is parsed
+2020-10-25T13:21:20.713875+0300 INFO Project tables are created
+2020-10-25T13:21:20.714877+0300 INFO Project tables are created
+2020-10-25T13:21:20.737997+0300 INFO Connection is closed.
+2020-10-25T13:21:20.738880+0300 INFO ------------------------------------
+2020-10-25T13:21:20.739293+0300 INFO Application ended
+2020-10-25T13:21:20.739293+0300 INFO ------------------------------------
+2020-10-25T13:21:41.022110+0300 INFO ------------------------------------
+2020-10-25T13:21:41.023042+0300 INFO Application started
+2020-10-25T13:21:41.024044+0300 INFO ------------------------------------
+2020-10-25T13:21:41.024650+0300 INFO Connection to the database is established.
+2020-10-25T13:21:41.028043+0300 INFO Incorrect files are removed
+2020-10-25T13:21:41.029043+0300 INFO File search is done
+2020-10-25T13:21:41.050040+0300 INFO File is parsed
+2020-10-25T13:21:41.713109+0300 INFO Project tables are created
+2020-10-25T13:21:41.713109+0300 INFO Book tables are created
+2020-10-25T13:21:41.755113+0300 INFO File is parsed
+2020-10-25T13:21:42.447550+0300 INFO Project tables are created
+2020-10-25T13:21:42.447550+0300 INFO Book tables are created
+2020-10-25T13:21:42.478620+0300 INFO File is parsed
+2020-10-25T13:21:42.554703+0300 INFO Project tables are created
+2020-10-25T13:21:42.555547+0300 INFO Book tables are created
+2020-10-25T13:21:42.561665+0300 INFO Connection is closed.
+2020-10-25T13:21:42.561665+0300 INFO ------------------------------------
+2020-10-25T13:21:42.561665+0300 INFO Application ended
+2020-10-25T13:21:42.561665+0300 INFO ------------------------------------
+2020-10-25T13:22:13.337815+0300 INFO ------------------------------------
+2020-10-25T13:22:13.338820+0300 INFO Application started
+2020-10-25T13:22:13.338820+0300 INFO ------------------------------------
+2020-10-25T13:22:13.339817+0300 INFO Connection to the database is established.
+2020-10-25T13:22:13.341817+0300 INFO Incorrect files are removed
+2020-10-25T13:22:13.341817+0300 INFO File search is done
+2020-10-25T13:22:13.346826+0300 INFO File is parsed
+2020-10-25T13:22:13.435821+0300 INFO Project tables are created if not exist
+2020-10-25T13:22:13.437239+0300 INFO Book table is created
+2020-10-25T13:22:13.463822+0300 INFO File is parsed
+2020-10-25T13:22:14.049241+0300 INFO Project tables are created if not exist
+2020-10-25T13:22:14.050342+0300 INFO Book table is created
+2020-10-25T13:22:14.092239+0300 INFO File is parsed
+2020-10-25T13:22:14.742144+0300 INFO Project tables are created if not exist
+2020-10-25T13:22:14.743233+0300 INFO Book table is created
+2020-10-25T13:22:14.768136+0300 INFO Connection is closed.
+2020-10-25T13:22:14.768136+0300 INFO ------------------------------------
+2020-10-25T13:22:14.768136+0300 INFO Application ended
+2020-10-25T13:22:14.769138+0300 INFO ------------------------------------
+2020-10-25T13:24:06.419234+0300 INFO ------------------------------------
+2020-10-25T13:24:06.421237+0300 INFO Application started
+2020-10-25T13:24:06.422532+0300 INFO ------------------------------------
+2020-10-25T13:24:06.424243+0300 INFO Connection to the database is established.
+2020-10-25T13:24:06.427534+0300 INFO Incorrect files are removed
+2020-10-25T13:24:06.469225+0300 INFO File search is done
+2020-10-25T13:24:06.551346+0300 INFO File is parsed
+2020-10-25T13:24:08.769578+0300 INFO Project tables are created if not exist
+2020-10-25T13:24:08.771589+0300 INFO Book table is created
+2020-10-25T13:24:08.832015+0300 INFO File is parsed
+2020-10-25T13:24:09.807549+0300 INFO Project tables are created if not exist
+2020-10-25T13:24:09.808660+0300 INFO Book table is created
+2020-10-25T13:24:09.845557+0300 INFO File is parsed
+2020-10-25T13:24:09.921600+0300 INFO Project tables are created if not exist
+2020-10-25T13:24:09.922551+0300 INFO Book table is created
+2020-10-25T13:24:09.927546+0300 INFO Connection is closed.
+2020-10-25T13:24:09.927546+0300 INFO ------------------------------------
+2020-10-25T13:24:09.927546+0300 INFO Application ended
+2020-10-25T13:24:09.927546+0300 INFO ------------------------------------
+2020-10-25T13:27:11.481215+0300 INFO ------------------------------------
+2020-10-25T13:27:11.507214+0300 INFO Application started
+2020-10-25T13:27:11.507214+0300 INFO ------------------------------------
+2020-10-25T13:27:11.508349+0300 INFO Connection to the database is established.
+2020-10-25T13:27:11.589133+0300 INFO Incorrect files are removed
+2020-10-25T13:27:11.592139+0300 INFO File search is done
+2020-10-25T13:27:11.781140+0300 INFO File is parsed
+2020-10-25T13:27:17.151106+0300 INFO Project tables are created if not exist
+2020-10-25T13:27:17.151106+0300 INFO Book table is created
+2020-10-25T13:27:17.221186+0300 INFO File is parsed
+2020-10-25T13:27:19.349388+0300 INFO Project tables are created if not exist
+2020-10-25T13:27:19.350388+0300 INFO Book table is created
+2020-10-25T13:27:19.395672+0300 INFO File is parsed
+2020-10-25T13:27:19.474667+0300 INFO Project tables are created if not exist
+2020-10-25T13:27:19.474667+0300 INFO Book table is created
+2020-10-25T13:27:19.480260+0300 INFO Connection is closed.
+2020-10-25T13:27:19.480670+0300 INFO ------------------------------------
+2020-10-25T13:27:19.480670+0300 INFO Application ended
+2020-10-25T13:27:19.481666+0300 INFO ------------------------------------
+2020-10-25T13:27:55.193411+0300 INFO ------------------------------------
+2020-10-25T13:27:55.195412+0300 INFO Application started
+2020-10-25T13:27:55.196410+0300 INFO ------------------------------------
+2020-10-25T13:27:55.197415+0300 INFO Connection to the database is established.
+2020-10-25T13:27:55.208406+0300 INFO Incorrect files are removed
+2020-10-25T13:27:55.214948+0300 INFO File search is done
+2020-10-25T13:27:55.368247+0300 INFO File is parsed
+2020-10-25T13:28:00.758375+0300 INFO Project tables are created if not exist
+2020-10-25T13:28:00.759376+0300 INFO Book table is created
+2020-10-25T13:28:00.872193+0300 INFO File is parsed
+2020-10-25T13:28:01.940450+0300 INFO Project tables are created if not exist
+2020-10-25T13:28:01.942553+0300 INFO Book table is created
+2020-10-25T13:28:01.993690+0300 INFO File is parsed
+2020-10-25T13:28:02.139521+0300 INFO Project tables are created if not exist
+2020-10-25T13:28:02.139521+0300 INFO Book table is created
+2020-10-25T13:28:02.157801+0300 INFO Connection is closed.
+2020-10-25T13:28:02.158801+0300 INFO ------------------------------------
+2020-10-25T13:28:02.158801+0300 INFO Application ended
+2020-10-25T13:28:02.159494+0300 INFO ------------------------------------
